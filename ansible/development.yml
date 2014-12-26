@@ -13,10 +13,4 @@
   roles:
     - system
     - php
-    - bennojoy.nginx
-    - percona
-    - postgresql
-    - redis
-    - memcached
-    - cakephp
 
