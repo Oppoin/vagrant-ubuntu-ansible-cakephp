@@ -4,6 +4,10 @@
     user: vagrant
     sudo: yes
 
+    vars:
+      - root_password: 12345678mysql
+      - create_app_db: false
+
     vars_prompt:
 
     - name: "cakephp_version"
@@ -13,5 +17,5 @@
     roles:
       - system
       - php
-      - percona
+      - overdrive3000.ansible-percona
 
