@@ -4,14 +4,14 @@
     user: vagrant
     sudo: yes
 
-  vars_prompt:
+    vars_prompt:
 
-  - name: "cakephp_version"
-    prompt: "What version of CakePHP do you want to deploy? (2 or 3)?"
-    default: "3"
+    - name: "cakephp_version"
+      prompt: "What version of CakePHP do you want to deploy? (2 or 3)?"
+      default: "3"
 
-  roles:
-    - system
-    - php
-    - percona
+    roles:
+      - system
+      - php
+      - percona
 
