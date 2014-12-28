@@ -7,7 +7,6 @@
     vars:
       - root_password: 123456789mysql
       - create_app_db: false
-      - bind_address: 127.0.0.1
 
     vars_prompt:
 
