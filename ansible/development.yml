@@ -5,7 +5,7 @@
     sudo: yes
 
     vars:
-      - root_password: 12345678mysql
+      - root_password: 123456789mysql
       - create_app_db: false
 
     vars_prompt:
