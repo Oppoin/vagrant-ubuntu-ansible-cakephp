@@ -17,5 +17,5 @@
     roles:
       - system
       - php
-      - overdrive3000.ansible-percona
+      - npm.ansible-percona
 
